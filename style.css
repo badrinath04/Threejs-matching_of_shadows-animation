@@ -1,0 +1,316 @@
+ 
+        li{
+            width: 260px;
+            font-size: 15px;
+
+        }
+
+        #shadownotes1{
+            position: absolute;top: 5%;
+            left: 4%;
+            right: 22%;
+            color: white;
+            border:1px solid black;
+            border-radius: 5px;
+            padding: 9px;
+            background-color: #23eae18a;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+
+        #shadownotes2{
+            position: absolute;
+            top: 14%;
+            left: 4%;
+            right: 22%;
+            color: white;
+            border:1px solid black;
+            border-radius: 5px;
+            padding: 9px;
+            background-color: #71ff296b;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+
+        #shadownotes3{
+            position: absolute;
+            top: 20.5%;
+            left: 4%;
+            right: 22%;
+            color: white;
+            border:1px solid black;
+            border-radius: 5px;
+            padding: 9px;
+            background-color: #d6a32fc2;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+
+         #shadownotes4{
+            position: absolute;
+            bottom : 4%;
+            left: 4%;
+            right: 53%;
+            color: white;
+            border:1px solid black;
+            border-radius: 5px;
+            padding: 9px;
+            background-color: #8a8119bd;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+
+        #notes1{
+        	position: absolute;top: 5%;
+        	left: 27%;
+        	right: 26%;
+        	color: white;
+        	border:1px solid black;
+        	border-radius: 5px;
+        	padding: 9px;
+        	background-color: #8e5010b8;
+        	font-size: 15px;
+        	font-weight: lighter;
+        }
+
+        #last1{
+        	position: absolute;top: 5%;
+        	left: 10%;
+        	right: 66%;
+        	color: white;
+        	border:1px solid black;
+        	border-radius: 5px;
+        	padding: 9px;
+        	background-color: #4d3a269c;
+        	font-size: 15px;
+        	font-weight: lighter;
+        }
+#notes2{
+        	position: absolute;top: 9%;
+        	left: 2%;
+        	font-size: 15px;
+        	font-weight: bold;
+        }
+
+
+        #notes3{
+        	position: absolute;top: 76%;
+        	left: 33%;
+        	font-size: 25px;
+        	padding: 8px;
+        	font-weight: lighter;
+        	border-radius: 5px;
+        	border: 1px solid black;
+        	background-color: #63b134;
+        }
+
+        #notes4{
+        	position: absolute;top: 76%;
+        	left: 33%;
+        	font-size: 25px;
+        	padding: 8px;
+        	font-weight: lighter;
+        	border-radius: 5px;
+        	border: 1px solid black;
+        	background-color: red;
+        }
+
+         #notes5{
+        	position: absolute;top: 75%;
+        	left: 28%;
+        	font-size: 25px;
+        	padding: 8px;
+        	font-weight: lighter;
+        	border-radius: 5px;
+        	border: 1px solid black;
+        	background-color: #6fe8b76b;
+        }
+
+        #correct{
+        	position: absolute;
+        	top: 72%;
+        	left: 9%;
+        	right:17%;
+        	font-size: 21px;
+        	padding: 8px;
+        	font-weight: lighter;
+        	border-radius: 25px;
+        	border: 1px solid black;
+        	background-color: #9847af;
+        }
+
+         #wrong{
+        	position: absolute;
+        	top: 72%;
+        	left: 9%;
+        	right: 19%;
+        	font-size: 21px;
+        	padding: 9px;
+        	font-weight: lighter;
+        	border-radius: 25px;
+        	border: 1px solid black;
+        	background-color: #e84c4c;
+        }
+
+         .sidenav 
+              {
+                height: 100%; 
+                width: 0;
+                position: fixed; 
+                z-index: 2;
+                top: 0;
+                left: 0;
+                background-color: #6fe8b7;
+                overflow-x: hidden;
+                padding-top: 60px; 
+                transition: 0.5s; 
+                color:#FFF;
+              }
+              .sidenav a 
+              {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #717171;
+                display: block;
+                transition: 0.3s
+              }
+              .sidenav a:hover, .offcanvas a:focus
+              {
+                color: black;
+              }
+              .closebtn
+              {
+                position: absolute;
+                top: 0%;
+                left: 90%;
+                font-size: 36px !important;
+                /*margin-left: 50px;*/
+               /* display: none;*/
+                z-index: 10;
+              }
+
+
+              .input {
+	position: absolute;
+	left: 53%;
+	top: 20%;
+	padding: 3px;
+	border: 1px solid  #552f16;
+	width:5%;
+	/*height: 5%;
+	width: 7%;
+	font-size: 200%;
+	font-weight: bold;*/
+ /* background-color: white;
+  border: 1px solid darkgray;
+  box-shadow: 1px 1px 1px 0 lightgray inset;
+  margin-top: 5px;
+  padding: 2px 3px;*/
+}
+/*#total{
+border: 1px solid black;
+}*/
+
+#tex1{
+font-size: 11px;
+position: absolute;
+top:15%;
+left: 5%;
+color: #552f16;
+}
+
+#tex2{
+font-size: 11px;
+position: absolute;
+top:15%;
+left: 9.5%;	
+color: #552f16;
+}
+
+#tex3{
+font-size: 11px;
+position: absolute;
+top:15%;
+left: 14%;
+color: #552f16;
+}
+
+#input1{
+position: absolute;
+top: 37%;
+}
+#input2{
+	position: absolute;
+top: 43%;
+}
+#input3{
+	position: absolute;
+top: 49%;
+}
+#input4{
+	position: absolute;
+top: 55%;
+}
+#input5{
+	position: absolute;
+top: 31%;
+}
+#text{
+	font-size: 16px;
+	position: absolute;
+top: 19%;
+left: 6%;
+color: #552f16;
+}
+#text1{
+position: absolute;
+top: 34.9%;
+left: 19%;
+}
+ #text2{
+	position: absolute;
+top: 40.5%;
+left: 26%;
+}
+#text3{
+	position: absolute;
+top: 46.5%;
+left: 5%
+}
+#text4{
+	position: absolute;
+top: 52.5%;
+left: 23%;
+}
+#text5{
+	position: absolute;
+top: 28.5%;
+left: 12%;
+}
+
+     .label{
+	position: absolute;
+	top:60%;
+	left: 17%;
+	background-color: #552f16;
+	color: #000000;
+	font-weight: bolder;
+	/*color: #000000;*/
+	padding: 5px;
+	width: 44%;
+	font-family: sans-serif;
+	font-size: 150%;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	/*text-shadow: 1px 1px #ffffff;*/
+	/*outline-style: ridge;
+	outline-color: white;
+	outline-width: thick;*/
+}
+.label:hover {
+    color: white;
+    border: 1px solid white;
+}
